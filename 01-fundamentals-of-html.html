@@ -7,21 +7,21 @@
   </head>
   <body id="top">
     <a href="https://images.pexels.com/photos/572463/pexels-photo-572463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">
-      <img src="https://images.pexels.com/photos/572463/pexels-photo-572463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Anonymous" width="300px">
+      <img src="https://images.pexels.com/photos/572463/pexels-photo-572463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Anonymous" width="300">
     </a>
     <h3>Vel lorem | 6 hours</h3>
     <h1>Ultrices Mi Tempus</h1>
 
     <div>
       <h2>Tincidunt Tellus</h2>
-      <img src="https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sed dictum malesuada" width="500px">
+      <img src="https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sed dictum malesuada" width="500">
       <p>Suspendisse rhoncus sollicitudin vehicula. Nulla pulvinar massa dui, sit amet dapibus metus pharetra sit amet. Proin purus ex, consequat vitae risus in, dapibus posuere neque. Nulla interdum, dolor a eleifend aliquet, massa orci mollis felis, sit amet faucibus eros erat a ante. Etiam consequat ligula velit, vitae imperdiet nisi ornare eget. Aliquam non mollis lorem. Maecenas eget rhoncus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas semper purus et quam porttitor, at venenatis quam tincidunt. Sed erat nibh, lobortis in purus nec, pretium auctor arcu.</p>
       <p>Proin vel <strong>et elit</strong> ornare congue. Pellentesque interdum a nisl vitae pretium. Morbi bibendum, neque gravida euismod semper, mi dui fermentum ante, vel rhoncus lorem leo eget lectus. Proin nec suscipit mi. Suspendisse enim dui, fermentum eu massa at, cursus finibus lacus. Mauris fermentum mollis cursus. Nulla tristique est non nulla mattis varius. Vestibulum nec tristique diam.</p>
     </div>
 
     <div>
       <h2>Proin A Massa</h2>
-      <img src="https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="In tempor tortor" width="500px">
+      <img src="https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="In tempor tortor" width="500">
       <p>Nunc finibus sem eros, sed laoreet tellus fermentum ac. Suspendisse consectetur aliquet posuere. Proin a ornare sem. Sed eleifend massa et sem sollicitudin faucibus ac quis quam. Curabitur vitae mauris vel nisl iaculis scelerisque. Donec lobortis fermentum ante id lacinia. Vivamus lectus nisi, fermentum non finibus vitae, sagittis at magna.</p>
       <p>Donec in tempor tortor. Aliquam erat volutpat. Ut ultricies lectus sed dictum malesuada. In molestie purus eu augue pellentesque placerat. Nullam gravida ac massa sed pellentesque. Fusce id ultricies metus. Vivamus non eros consectetur est cursus tristique.</p>
     </div>
@@ -33,7 +33,7 @@
         <li>Faucibus pellentesque</li>
         <li>Dui dapibus</li>
       </ul>
-      <video src="./assets/oceans.mp4" width="500px" controls></video>
+      <video src="./assets/oceans.mp4" width="500" controls></video>
       <br>
       <a href="./README.md">Typographe</a>
       <br>
@@ -42,20 +42,58 @@
 
     <div id="table">
       <h2>Mensam regulis</h2>
-      <table style="border: 1px;">
+      <table>
         <thead>
           <tr>
-            <th colspan="2"><h3>Occlurum</h3></th>
+            <th colspan="4">
+              <h3>Occlurum</h3>
+            </th>
           </tr>
           <tr>
-            <th>Mauris</th>
-            <th>Interdum</th>
+            <th colspan="2">Mauris</th>
+            <th colspan="2">Interdum</th>
           </tr>
         </thead>
-        <tbody></tbody>
-        <tfoot></tfoot>
+        <tbody>
+          <tr>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td rowspan="2"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td colspan="2"></td>
+            <td></td>
+          </tr>
+        </tfoot>
       </table>
     </div>
 
   </body>
+  <style>
+    table, th, td {
+      border: 2px solid black
+    }
+    
+    td {
+      height: 50px;
+      width: 50px;
+    }
+
+    tfoot {
+      background-color: rgb(223, 223, 223);
+    }
+  </style>
 </html>
