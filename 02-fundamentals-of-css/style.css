@@ -1,5 +1,7 @@
 /* Ex: Universal selectors */
 * {
+  margin: 0px;
+  padding: 0px;
   font-family: sans-serif;
 }
 
@@ -96,6 +98,8 @@ p, h1 {
 }
 
 #box {
+  /* min-width: 100px;
+  max-width: 300px; */
   width: 100px;
   height: 100px;
   background-color: lightgray;
