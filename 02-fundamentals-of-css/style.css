@@ -8,11 +8,16 @@ h1 {
   background-color: aliceblue;
 }
 
-/* Class selector */
+/* Class selectors */
 .grey {
-  color: grey;
+  color: rgb(136, 136, 136);
 }
 
 .reddish {
  background-color: rgb(175, 78, 61);
+}
+
+/* ID selector */
+#example {
+  font-family: cursive;
 }
