@@ -1,4 +1,10 @@
-h1 {
+/* Universal selectors */
+* {
+  font-family: sans-serif;
+}
+
+/* Type selector */
+h1 { 
   color: grey;
   background-color: aliceblue;
 }
