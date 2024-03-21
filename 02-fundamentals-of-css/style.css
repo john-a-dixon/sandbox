@@ -1,14 +1,14 @@
-/* Universal selectors */
+/* Ex: Universal selectors */
 * {
   font-family: sans-serif;
 }
 
-/* Type selector */
+/* Ex: Type selector */
 h1 { 
   background-color: aliceblue;
 }
 
-/* Class selectors */
+/* Ex: Class selectors */
 .grey {
   color: rgb(136, 136, 136);
 }
@@ -17,12 +17,12 @@ h1 {
  background-color: rgb(175, 78, 61);
 }
 
-/* ID selector */
+/* Ex: ID selector */
 #example {
   font-family: cursive;
 }
 
-/* Attribute selectors */
+/* Ex: Attribute selectors */
 [src] {
   width: 300px;
 }
@@ -31,25 +31,27 @@ img[src*="1687530"] {
   width: 300px;
 }
 
-/* Pseudo-class selector */
+/* Ex: Pseudo-class selector */
 img[src*="1687530"]:hover {
   width: 500px;
 }
 
-/* Demonstrates specificity */
-p {
+/* Ex: Specificity */
+p { /* This is least specific */
   color: slategray;
 }
 
-.paras {
+.paras { /* This is more specific than 'p' */
   color: rgb(146, 146, 21);
 }
 
-#pinkish {
+#pinkish { /* This is more specific than 'paras' */
   color: palevioletred
 }
 
-/* Chaining */
+/* Ex: Chaining */
 p.paras {
   background-color: rgb(85, 85, 85);
 }
+
+/* Ex: Descendant combinator */
