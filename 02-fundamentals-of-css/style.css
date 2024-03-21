@@ -30,3 +30,8 @@ h1 {
 img[src*="1687530"] {
   width: 500px;
 }
+
+/* Pseudo-class selector */
+img[src*="1687530"]:hover {
+  width: 300px;
+}
