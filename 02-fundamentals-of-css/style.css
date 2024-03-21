@@ -5,6 +5,14 @@
 
 /* Type selector */
 h1 { 
-  color: grey;
   background-color: aliceblue;
+}
+
+/* Class selector */
+.grey {
+  color: grey;
+}
+
+.reddish {
+ background-color: rgb(175, 78, 61);
 }
