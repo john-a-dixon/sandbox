@@ -39,6 +39,7 @@ li {
 /* Ex: Attribute selectors */
 [src] {
   width: 300px;
+  visibility: hidden;
 }
 
 img[src*="1687530"] {
