@@ -68,3 +68,8 @@ h4 {
 #big h4 {
   color: blue;
 }
+
+/* Ex: Multiple selectors */
+p, h1 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
