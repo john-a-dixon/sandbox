@@ -21,3 +21,12 @@ h1 {
 #example {
   font-family: cursive;
 }
+
+/* Attribute selectors */
+[src] {
+  width: 300px;
+}
+
+img[src*="1687530"] {
+  width: 500px;
+}
