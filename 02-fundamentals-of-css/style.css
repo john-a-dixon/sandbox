@@ -55,3 +55,7 @@ p.paras {
 }
 
 /* Ex: Descendant combinator */
+#big p {
+  background-color: black;
+  color: aliceblue;
+}
