@@ -1,5 +1,6 @@
 /* Ex: Universal selectors */
 * {
+  box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   font-family: sans-serif;
@@ -39,7 +40,7 @@ li {
 /* Ex: Attribute selectors */
 [src] {
   width: 300px;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 img[src*="1687530"] {
@@ -101,7 +102,7 @@ p, h1 {
 #box {
   /* min-width: 100px;
   max-width: 300px; */
-  width: 100px;
+  width: 150px;
   height: 100px;
   background-color: lightgray;
   border: 3px dashed rgb(185, 185, 185);
@@ -113,4 +114,9 @@ p, h1 {
 
 #box p {
   text-align: center;
+}
+
+img {
+  display: inline-block;
+  margin: 0 auto;
 }
