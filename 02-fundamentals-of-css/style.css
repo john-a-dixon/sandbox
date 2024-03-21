@@ -6,6 +6,8 @@
 /* Ex: Type selector */
 h1 { 
   background-color: aliceblue;
+  font-weight: 100;
+  text-align: center;
 }
 
 /* Ex: Class selectors */
