@@ -3,6 +3,11 @@
   font-family: sans-serif;
 }
 
+/* Ex: Use of a background image */
+body {
+  background-image: url('https://images.pexels.com/photos/689451/pexels-photo-689451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
 /* Ex: Type selector */
 h1 { 
   background-color: aliceblue;
@@ -45,7 +50,7 @@ p { /* This is least specific */
 }
 
 .paras { /* This is more specific than 'p' */
-  color: rgb(146, 146, 21);
+  color: rgb(146, 146, 21) !important; 
 }
 
 #pinkish { /* This is more specific than 'paras' */
@@ -61,6 +66,7 @@ p.paras {
 #big p {
   background-color: black;
   color: aliceblue;
+  opacity: 50%;
 }
 
 /* Ex: Additional specificity */
