@@ -87,3 +87,17 @@ h4 {
 p, h1 {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/* Ex: Box model illustrated */
+#box-model {
+  width: 300px;
+  background-color: rgb(47, 47, 47);
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  border: 3px dashed rgb(185, 185, 185);
+  padding: 20px;
+}
