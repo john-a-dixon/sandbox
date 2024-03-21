@@ -90,7 +90,8 @@ p, h1 {
 
 /* Ex: Box model illustrated */
 #box-model {
-  width: 300px;
+  width: 250px;
+  height: 250px;
   background-color: rgb(47, 47, 47);
 }
 
@@ -99,5 +100,12 @@ p, h1 {
   height: 100px;
   background-color: lightgray;
   border: 3px dashed rgb(185, 185, 185);
-  padding: 20px;
+  padding: 30px 20px 10px 20px;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 50px;
+}
+
+#box p {
+  text-align: center;
 }
