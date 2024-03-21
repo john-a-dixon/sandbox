@@ -59,3 +59,12 @@ p.paras {
   background-color: black;
   color: aliceblue;
 }
+
+/* Ex: Additional specificity */
+h4 {
+  color: red
+}
+
+#big h4 {
+  color: blue;
+}
