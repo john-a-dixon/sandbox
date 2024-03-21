@@ -48,3 +48,8 @@ p {
 #pinkish {
   color: palevioletred
 }
+
+/* Chaining */
+p.paras {
+  background-color: rgb(85, 85, 85);
+}
