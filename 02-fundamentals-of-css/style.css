@@ -20,6 +20,7 @@ h1 {
 /* Ex: ID selector */
 #example {
   font-family: cursive;
+  font-size: xx-large;
 }
 
 /* Ex: Attribute selectors */
