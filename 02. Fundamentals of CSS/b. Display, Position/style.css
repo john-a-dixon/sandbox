@@ -54,5 +54,5 @@ span:nth-child(6) {
 }
 
 span:nth-child(8) {
-  display: inline;
+  display: block;
 }
