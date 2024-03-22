@@ -32,4 +32,26 @@ div:nth-child(3) {
   background-color: rgb(107, 144, 255);
   border-color: rgb(22, 49, 132);
   top: 100px;
+  left: 1000px;
+}
+
+div:nth-child(4) {
+  position: sticky;
+  background-color: rgb(255, 107, 107);
+  border-color: rgb(157, 32, 32);
+  top: 10px;
+}
+
+div:nth-child(5) {
+  /* position: sticky; */
+  background-color: rgb(255, 107, 107);
+  border-color: rgb(157, 32, 32);
+  /* top: 0px; */
+}
+
+div:nth-child(6) {
+  /* position: sticky; */
+  background-color: rgb(255, 107, 107);
+  border-color: rgb(157, 32, 32);
+  /* top: 0px; */
 }
