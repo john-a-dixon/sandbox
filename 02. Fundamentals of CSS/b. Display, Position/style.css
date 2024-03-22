@@ -44,14 +44,7 @@ div:nth-child(4) {
 
 div:nth-child(5) {
   /* position: sticky; */
-  background-color: rgb(255, 107, 107);
-  border-color: rgb(157, 32, 32);
-  /* top: 0px; */
-}
-
-div:nth-child(6) {
-  /* position: sticky; */
-  background-color: rgb(255, 107, 107);
-  border-color: rgb(157, 32, 32);
+  background-color: rgb(242, 171, 84);
+  border-color: rgb(183, 110, 21);
   /* top: 0px; */
 }
