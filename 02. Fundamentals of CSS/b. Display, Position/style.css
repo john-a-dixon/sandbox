@@ -48,3 +48,11 @@ div:nth-child(5) {
   border-color: rgb(183, 110, 21);
   z-index: -1;
 }
+
+span:nth-child(6) {
+  display: inline;
+}
+
+span:nth-child(8) {
+  display: inline;
+}
