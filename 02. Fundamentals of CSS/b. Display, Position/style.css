@@ -26,3 +26,10 @@ div:nth-child(2) {
   border-color: rgb(72, 112, 32);
   left: 550px;
 }
+
+div:nth-child(3) {
+  position: fixed;
+  background-color: rgb(107, 144, 255);
+  border-color: rgb(22, 49, 132);
+  top: 100px;
+}
