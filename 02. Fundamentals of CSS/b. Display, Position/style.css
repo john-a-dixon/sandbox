@@ -20,8 +20,9 @@ div:nth-child(1) {
   left: 500px;
 }
 
-div:nth-child(1) {
-  position: relative;
-  background-color: violet;
-  left: 500px;
+div:nth-child(2) {
+  position: absolute;
+  background-color: rgb(181, 255, 107);
+  border-color: rgb(72, 112, 32);
+  left: 550px;
 }
