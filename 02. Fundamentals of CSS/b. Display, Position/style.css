@@ -4,6 +4,24 @@
   padding: 0px;
 }
 
-h1 {
-  position: fixed;
+
+.box {
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+  border-width: 7px;
+  border-style: dashed;
+}
+
+div:nth-child(1) {
+  position: relative;
+  background-color: rgb(242, 161, 242);
+  border-color: rgb(102, 14, 102);
+  left: 500px;
+}
+
+div:nth-child(1) {
+  position: relative;
+  background-color: violet;
+  left: 500px;
 }
