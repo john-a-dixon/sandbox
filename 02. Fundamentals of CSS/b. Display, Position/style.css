@@ -67,4 +67,5 @@ li {
 
 div:last-child {
   float: right;
+  clear: right; /* Used to help when objects bump into each other. */
 }
