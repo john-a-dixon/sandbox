@@ -56,3 +56,11 @@ span:nth-child(6) {
 span:nth-child(8) {
   display: block;
 }
+
+li {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(246, 241, 101);
+  border: 1px dashed rgb(185, 23, 254);
+}
