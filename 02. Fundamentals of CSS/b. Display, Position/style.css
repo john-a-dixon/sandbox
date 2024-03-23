@@ -64,3 +64,7 @@ li {
   background-color: rgb(246, 241, 101);
   border: 1px dashed rgb(185, 23, 254);
 }
+
+div:last-child {
+  float: right;
+}
