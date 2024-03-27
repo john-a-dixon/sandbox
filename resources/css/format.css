@@ -2,17 +2,3 @@ html, body {
   height: 100%;
   width: 100%;
 }
-
-body > article {
-  display: inline-block;
-}
-
-article:first-child {
-  height: 100%;
-  width: 25%;
-}
-
-article:last-child {
-  height: 100%;
-  width: 70%;
-}
