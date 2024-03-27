@@ -1,0 +1,11 @@
+* {
+  background-color: var(--main-color);
+}
+
+body:first-child {
+  background-color: blue;
+}
+
+body:last-child {
+  background-color: black;
+}

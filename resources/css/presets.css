@@ -6,3 +6,6 @@
 }
 
 /* VARIABLES */
+:root {
+  --main-color: hsl(0, 50%, 50%);
+}
