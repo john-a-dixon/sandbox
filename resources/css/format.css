@@ -12,3 +12,7 @@ html, body {
 .breadcrumb li {
   display: inline-block;
 }
+
+.breadcrumb li+li::before {
+  content: "> ";
+}
