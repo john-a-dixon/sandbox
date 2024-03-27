@@ -1,3 +1,5 @@
+read -p "Message: " message
+
 git add -A
-git commit -m "Formatting the breadcrumb."
+git commit -m "$message"
 git push
