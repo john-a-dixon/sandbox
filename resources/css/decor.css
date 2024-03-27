@@ -1,11 +1,7 @@
-* {
-  background-color: var(--main-color);
-}
-
-body:first-child {
+article:first-child {
   background-color: blue;
 }
 
-body:last-child {
+article:last-child {
   background-color: black;
 }
