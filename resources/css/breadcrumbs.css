@@ -1,9 +1,13 @@
-.breadcrumb * {
-  background-color: red;
+.breadcrumb {
+  width: fit-content;
+  background-color: hsl(271, 25%, 53%);
 }
 
 .breadcrumb li {
   display: inline-block;
+  height: 30px;
+  padding-top: 5px;
+  background-color: transparent;
 }
 
 .breadcrumb li+li::before {
