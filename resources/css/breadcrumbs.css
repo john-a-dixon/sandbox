@@ -1,0 +1,12 @@
+.breadcrumb * {
+  background-color: red;
+}
+
+.breadcrumb li {
+  display: inline-block;
+}
+
+.breadcrumb li+li::before {
+  content: ">\00a0\00a0";
+  font-size: x-small;
+}

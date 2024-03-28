@@ -9,3 +9,9 @@
 :root {
   --main-color: hsl(0, 50%, 50%);
 }
+
+/* FORMATS */
+html, body {
+  height: 100%;
+  width: 100%;
+}
