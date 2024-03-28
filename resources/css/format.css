@@ -15,4 +15,5 @@ html, body {
 
 .breadcrumb li+li::before {
   content: "> ";
+  font-size: small;
 }
