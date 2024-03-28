@@ -5,15 +5,21 @@ html, body {
 
 .breadcrumb {
   height: 250px;
-  width: 250px;
+  width: 350px;
   margin: 0 auto;
 }
 
+/* BASIC BREADCRUMB */
 .breadcrumb li {
   display: inline-block;
 }
 
 .breadcrumb li+li::before {
-  content: "> ";
+  content: ">";
   font-size: small;
+}
+
+/* STYLED BREADCRUMB */
+.breadcrumb.styled a {
+  background-color: hsl(208, 100%, 50%);
 }
