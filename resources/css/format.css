@@ -3,17 +3,18 @@ html, body {
   width: 100%;
 }
 
+
 .breadcrumb {
   height: 250px;
   width: 350px;
   margin: 0 auto;
 }
 
-/* BASIC BREADCRUMB */
 .breadcrumb li {
   display: inline-block;
 }
 
+/* BASIC BREADCRUMB */
 .breadcrumb li+li::before {
   content: ">";
   font-size: small;
@@ -21,5 +22,10 @@ html, body {
 
 /* STYLED BREADCRUMB */
 .breadcrumb.styled a {
-  background-color: hsl(208, 100%, 50%);
+  display: block;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0 5px;
 }

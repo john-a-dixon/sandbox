@@ -16,3 +16,15 @@
 .breadcrumb a:active {
   color: green;
 }
+
+/* STYLED BREADCRUMB */
+.breadcrumb.styled a {
+  background-color: hsl(208, 100%, 50%);
+  color: aliceblue;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.breadcrumb.styled li+li::before {
+  content: "";
+}
