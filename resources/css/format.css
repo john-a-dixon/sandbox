@@ -21,11 +21,14 @@ html, body {
 }
 
 /* STYLED BREADCRUMB */
+.breadcrumb.styled li {
+  float: left;
+}
+
 .breadcrumb.styled a {
   display: block;
   position: relative;
   height: 30px;
-  line-height: 30px;
   text-align: center;
-  padding: 0 5px;
+  padding: 5px 5px;
 }
