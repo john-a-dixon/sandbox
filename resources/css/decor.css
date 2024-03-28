@@ -2,13 +2,16 @@
   text-decoration: none;
 }
 
+.breadcrumb a:link {
+  color: black;
+
+}
+
 .breadcrumb a:hover {
+  color: red;
   text-decoration: underline;
 }
 
-.breadcrumb a:visited {
-  color: red;
-}
 
 .breadcrumb a:active {
   color: green;
