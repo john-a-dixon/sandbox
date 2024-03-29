@@ -3,12 +3,18 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* FORMATS */
 html, body {
   height: 100%;
   width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
 }
 
 /* BREADCRUMB */
@@ -24,4 +30,9 @@ html, body {
   height: 100px;
   width: 100px;
   background-color: hsl(0, 0%, 35%);
+  border: 1px dotted white;
+}
+
+article:nth-child(1) .container{
+  justify-content: flex-start;
 }
