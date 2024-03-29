@@ -61,3 +61,14 @@ article:nth-child(5) .container{
 article:nth-child(6) .container{
   justify-content: space-evenly;
 }
+
+hr {
+  color: aliceblue;
+  width: 60%;
+  margin: 85px auto 0px auto;
+}
+
+article:nth-child(8) .container{
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
