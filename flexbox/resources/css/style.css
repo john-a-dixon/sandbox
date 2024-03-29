@@ -1,4 +1,4 @@
-/* UNIVERSAL */
+/******************************UNIVERSAL******************************/
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -9,7 +9,7 @@
   background-color: hsl(240, 75%, 5%);
 }
 
-/* FORMATS */
+/******************************FORMATS******************************/
 html, body {
   height: 100%;
   width: 100%;
@@ -19,6 +19,18 @@ h1 {
   margin-top: 50px;
   margin-bottom: 10px;
   color: hsl(195, 53%, 85%);
+}
+
+hr {
+  color: aliceblue;
+  width: 60%;
+  margin: 85px auto 0px auto;
+}
+
+aside {
+  color: hsla(208, 100%, 97%, 50%);
+  padding-bottom: 10px;
+  
 }
 
 /* BREADCRUMB */
@@ -36,6 +48,7 @@ h1 {
   width: 50px;
   background-color: hsl(240, 40%, 50%);
   border: 3px dashed lightskyblue;
+  flex-shrink: 0;
 }
 
 article:nth-child(1) .container{
@@ -62,13 +75,8 @@ article:nth-child(6) .container{
   justify-content: space-evenly;
 }
 
-hr {
-  color: aliceblue;
-  width: 60%;
-  margin: 85px auto 0px auto;
-}
 
-/**********************ALIGN ITEMS**********************/
+/******************************ALIGN ITEMS******************************/
 
 article:nth-child(8) .container{
   justify-content: space-evenly;
@@ -103,17 +111,51 @@ article:nth-child(12) .container {
   align-items: stretch;
 }
 
-hr {
-  color: aliceblue;
-  width: 60%;
-  margin: 85px auto 0px auto;
-}
-
-/**********************FLEX GROW**********************/
+/******************************FLEX GROW******************************/
 
 article:nth-child(14) > .container {
   width: 60%;
   height: 100px;
   justify-content: space-evenly;
   align-items: center;
+}
+
+article:nth-child(14) .box {
+  padding-top: 10px;
+  color:aqua;
+  margin: 10px;
+}
+
+article:nth-child(14) .box:nth-child(4) {
+  flex-grow: 2;
+}
+
+article:nth-child(14) .box:nth-child(1),
+article:nth-child(14) .box:nth-child(7) {
+  flex-grow: 1;
+}
+
+/******************************FLEX SHRINK******************************/
+article:nth-child(16) > .container {
+  width: 60%;
+  height: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+article:nth-child(16) .box {
+  padding-top: 10px;
+  color:aqua;
+  margin: 10px;
+}
+
+article:nth-child(16) .box:nth-child(4) {
+  width: 100px;
+  flex-shrink: 2;
+}
+
+article:nth-child(16) .box:nth-child(1),
+article:nth-child(16) .box:nth-child(7) {
+  width: 100px;
+  flex-shrink: 1;
 }
