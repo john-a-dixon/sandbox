@@ -40,3 +40,15 @@ article:nth-child(1) .container{
 article:nth-child(2) .container{
   justify-content: center;
 }
+
+article:nth-child(3) .container{
+  justify-content: center;
+}
+
+article:nth-child(4) .container{
+  justify-content: center;
+}
+
+article:nth-child(5) .container{
+  justify-content: center;
+}
