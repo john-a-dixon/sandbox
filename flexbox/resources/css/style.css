@@ -213,7 +213,37 @@ article:nth-child(20) .box:nth-child(7) {
 }
 
 /******************************FLEX-WRAP******************************/
+article:nth-child(22) > .container,
+article:nth-child(23) > .container,
+article:nth-child(24) > .container {
+  width: 60%;
+  height: fit-content;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+article:nth-child(22) .box,
+article:nth-child(23) .box,
+article:nth-child(24) .box {
+  padding-top: 25px;
+  color:aqua;
+  margin: 10px;
+  text-align: center;
+  height: 75px;
+  width: 75px;
+}
+
+article:nth-child(22) .container {
+  flex-wrap: wrap;
+}
+
+article:nth-child(23) .container {
+  flex-wrap: wrap-reverse;
+}
+
+article:nth-child(24) .container {
+  flex-wrap: nowrap;
+}
 /******************************ALIGN-CONTENT******************************/
 
 /******************************FLEX-DIRECTION******************************/
