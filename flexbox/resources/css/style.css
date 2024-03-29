@@ -42,13 +42,17 @@ article:nth-child(2) .container{
 }
 
 article:nth-child(3) .container{
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 article:nth-child(4) .container{
-  justify-content: center;
+  justify-content: space-around;
 }
 
 article:nth-child(5) .container{
-  justify-content: center;
+  justify-content: space-between;
+}
+
+article:nth-child(6) .container{
+  justify-content: space-evenly;
 }
