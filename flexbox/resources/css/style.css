@@ -34,8 +34,8 @@ h1 {
 .box {
   height: 50px;
   width: 50px;
-  margin: 1px;
   background-color: hsl(240, 40%, 50%);
+  border: 3px dashed lightskyblue;
 }
 
 article:nth-child(1) .container{
