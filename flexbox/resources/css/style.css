@@ -17,11 +17,11 @@ html, body {
   height: 150px;
   width: 90%;
   display: flex;
+  margin: 0 auto;
 }
 
 .box {
   height: 100px;
   width: 100px;
   background-color: hsl(0, 0%, 35%);
-  margin: 15px;
 }
