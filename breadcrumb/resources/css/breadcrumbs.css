@@ -1,3 +1,17 @@
+/* UNIVERSAL */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* FORMATS */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* BREADCRUMB */
 .breadcrumb {
   width: fit-content;
   background-color: hsl(271, 25%, 53%);
