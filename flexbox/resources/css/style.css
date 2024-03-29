@@ -1,0 +1,27 @@
+/* UNIVERSAL */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* FORMATS */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* BREADCRUMB */
+.container {
+  background-color: lightgrey;
+  height: 150px;
+  width: 90%;
+  display: flex;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: hsl(0, 0%, 35%);
+  margin: 15px;
+}
