@@ -1,0 +1,17 @@
+/******************************UNIVERSAL******************************/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Oxygen, Helvetica, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background-color: hsl(240, 75%, 5%);
+  color: azure;
+}
+
+/******************************FORMATS******************************/
+html, body {
+  height: 100%;
+  width: 100%;
+}
