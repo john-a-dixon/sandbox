@@ -36,3 +36,7 @@ h1 {
 article:nth-child(1) .container{
   justify-content: flex-start;
 }
+
+article:nth-child(2) .container{
+  justify-content: center;
+}
