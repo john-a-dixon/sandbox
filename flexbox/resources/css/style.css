@@ -68,7 +68,35 @@ hr {
   margin: 85px auto 0px auto;
 }
 
+/**********************ALIGN ITEMS**********************/
+
 article:nth-child(8) .container{
   justify-content: space-evenly;
   align-items: flex-start;
+}
+
+article:nth-child(9) .container{
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+article:nth-child(10) .container{
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+article:nth-child(11) .container .box:nth-child(4) {
+  height: 100px;
+}
+article:nth-child(11) .container{
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+article:nth-child(12) .container .box {
+  min-height: 100px;
+}
+article:nth-child(12) .container {
+  justify-content: space-evenly;
+  align-items: stretch;
 }
