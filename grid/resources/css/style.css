@@ -28,4 +28,10 @@ h1 {
   width: 600px;
   background-color: hsl(245, 76%, 66%);
   margin: 0 auto;
+  display: grid;
+}
+
+.basic-grid .grid-item {
+  background-color: hsl(208, 100%, 86%);
+  border: 4px dashed cornflowerblue;
 }
