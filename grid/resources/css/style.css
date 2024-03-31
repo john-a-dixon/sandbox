@@ -19,4 +19,13 @@ html, body {
 h1 {
   font-size: xx-large;
   margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/******************************BASIC GRID******************************/
+.basic-grid {
+  height: 600px;
+  width: 600px;
+  background-color: hsl(245, 76%, 66%);
+  margin: 0 auto;
 }
