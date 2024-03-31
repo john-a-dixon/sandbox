@@ -29,9 +29,12 @@ h1 {
   background-color: hsl(245, 76%, 66%);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr mixmax(100px, 300px); */
   grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  gap: 10px;
+
 }
 
 .basic-grid .grid-item {
