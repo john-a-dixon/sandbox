@@ -28,6 +28,12 @@ h2 {
   margin-bottom: 10px;
 }
 
+h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: hsla(180, 100%, 97%, 70%);
+}
+
 .grid {
   height: 600px;
   width: 600px;
@@ -106,7 +112,32 @@ h2 {
   background-color: hsl(0, 60%, 25%);
 }
 
-/******************************GRID JUSTIF-ITEMS******************************/
+/******************************GRID JUSTIFY-ITEMS******************************/
+.grid.justify-items {
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  gap: 10px;
+}
+
+.grid.justify-items > .grid-item {
+  width: 50px;
+  height: 50px;
+}
+
+.grid.justify-items.start {
+  justify-items: start;
+}
+
+.grid.justify-items.center {
+  justify-items: center;
+}
+
+.grid.justify-items.end {
+  justify-items: end;
+}
+
+.grid.justify-items.stretch {
+  justify-items: stretch;
+}
 
 /******************************GRID JUSTIFY-CONTENT******************************/
 
