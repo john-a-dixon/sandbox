@@ -135,11 +135,48 @@ h3 {
   justify-items: end;
 }
 
+.grid.justify-items.stretch > .grid-item {
+  width: auto;
+}
+
 .grid.justify-items.stretch {
   justify-items: stretch;
 }
 
 /******************************GRID JUSTIFY-CONTENT******************************/
+.grid.justify-content {
+  grid-template: repeat(4, 100px) / repeat(4, 100px);
+  gap: 10px;
+}
+
+.grid.justify-content.start {
+  justify-content: start;
+}
+
+.grid.justify-content.center {
+  justify-content: center;
+}
+
+.grid.justify-content.end {
+  justify-content: end;
+}
+
+.grid.justify-content.space-around {
+  justify-content: space-around;
+}
+
+.grid.justify-content.space-between {
+  justify-content: space-between;
+}
+
+.grid.justify-content.space-evenly {
+  justify-content: space-evenly;
+}
+
+.grid.justify-content.stretch {
+  grid-template: repeat(4, 100px) / repeat(4, minmax(100px, 500px));
+  justify-content: stretch;
+}
 
 /******************************GRID ALIGN-ITEMS******************************/
 
