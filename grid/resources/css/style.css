@@ -91,13 +91,19 @@ h2 {
 }
 
 /******************************GRID OVERLAPPING ELEMENTS******************************/
+/* For overlapping elements, grid-area must be used. */
 .overlap {
   grid-template: repeat(4, 1fr) / repeat(4, 1fr);
   gap: 10px;
 }
 
 .grid.overlap > .grid-item:first-child {
-  grid-row: 1 / span 4;
+  grid-area: 1 / 1/ span 4 / span 1;
+}
+
+.grid.overlap > .grid-item:nth-child(6) {
+  grid-area: 2 / 1 / span 2 / span 2;
+  background-color: hsl(0, 60%, 25%);
 }
 
 /******************************GRID JUSTIF-ITEMS******************************/
