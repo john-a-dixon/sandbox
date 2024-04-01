@@ -89,3 +89,21 @@ h2 {
 .footer {
   grid-area: footer;
 }
+
+/******************************GRID OVERLAPPING ELEMENTS******************************/
+.overlap {
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  gap: 10px;
+}
+
+.grid.overlap > .grid-item:first-child {
+  grid-row: 1 / span 4;
+}
+
+/******************************GRID JUSTIF-ITEMS******************************/
+
+/******************************GRID JUSTIFY-CONTENT******************************/
+
+/******************************GRID ALIGN-ITEMS******************************/
+
+/******************************GRID ALIGN-CONTENT******************************/
