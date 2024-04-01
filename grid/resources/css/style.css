@@ -240,3 +240,11 @@ h3 {
   grid-template: repeat(4, minmax(100px, 500px)) / repeat(4, 100px);
   align-content: stretch;
 }
+
+/******************************GRID JUSTIFY-SELF & ALIGN-SELF******************************/
+.grid.self {
+  grid-template: repeat(4, 100px) / repeat(4, 100px);
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
