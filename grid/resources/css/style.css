@@ -37,23 +37,21 @@ h2 {
 }
 /******************************BASIC GRID******************************/
 .basic.grid {
-  /* grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr mixmax(100px, 300px); */
   grid-template: repeat(4, 1fr) / repeat(4, 1fr);
   gap: 10px;
-
 }
 
 .basic.grid .grid-item {
   background-color: hsl(208, 100%, 86%);
-  /* border: 4px dashed cornflowerblue; */
 }
 
-.basic.grid .grid-item:nth-child(2) {
+.basic.grid .grid-item:nth-child(2),
+.basic.grid .grid-item:nth-child(8) {
   grid-column: 2 / span 2;
 }
 
-.basic.grid .grid-item:nth-child(4) {
+.basic.grid .grid-item:nth-child(4),
+.basic.grid .grid-item:nth-child(6) {
   grid-row: 2 / span 2;
 }
 
@@ -61,19 +59,11 @@ h2 {
   grid-area: 2 / 2 / span 2 / span 2;
 }
 
-.basic.grid .grid-item:nth-child(6) {
-  grid-row: 2 / span 2;
-}
-
-.basic.grid .grid-item:nth-child(8) {
-  grid-column: 2 / span 2;
-}
-
 /******************************GRID TEMPLATE AREA******************************/
-.grid.template {
+/* .grid.template {
   height: 600px;
   width: 600px;
   background-color: hsl(245, 76%, 66%);
   margin: 0 auto;
   display: grid;
-}
+} */
