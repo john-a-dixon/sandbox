@@ -264,3 +264,11 @@ h3 {
   grid-auto-columns: 25px;
   gap: 10px;
 }
+
+.grid.implicit.row {
+  grid-auto-flow: row;
+}
+
+.grid.implicit.column {
+  grid-auto-flow: column;
+}
