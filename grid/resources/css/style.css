@@ -34,6 +34,11 @@ h2 {
   margin: 0 auto;
   display: grid;
   padding: 10px;
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: hsl(208, 100%, 86%);
 }
 /******************************BASIC GRID******************************/
 .basic.grid {
@@ -41,29 +46,45 @@ h2 {
   gap: 10px;
 }
 
-.basic.grid .grid-item {
-  background-color: hsl(208, 100%, 86%);
-}
-
-.basic.grid .grid-item:nth-child(2),
-.basic.grid .grid-item:nth-child(8) {
+.basic.grid > .grid-item:nth-child(2),
+.basic.grid > .grid-item:nth-child(8) {
   grid-column: 2 / span 2;
 }
 
-.basic.grid .grid-item:nth-child(4),
-.basic.grid .grid-item:nth-child(6) {
+.basic.grid > .grid-item:nth-child(4),
+.basic.grid > .grid-item:nth-child(6) {
   grid-row: 2 / span 2;
 }
 
-.basic.grid .grid-item:nth-child(5) {
+.basic.grid > .grid-item:nth-child(5) {
   grid-area: 2 / 2 / span 2 / span 2;
 }
 
 /******************************GRID TEMPLATE AREA******************************/
-/* .grid.template {
-  height: 600px;
-  width: 600px;
-  background-color: hsl(245, 76%, 66%);
-  margin: 0 auto;
-  display: grid;
-} */
+.template {
+  grid-template-areas: "header header header header"
+                       "main-left main-right main-right main-right"
+                       "main-bottom main-bottom main-bottom main-bottom"
+                       "footer footer footer footer";
+  grid-template-columns: 100px repeat(3, 1fr);
+}
+
+.header {
+  grid-area: header;
+}
+
+.main-left {
+  grid-area: main-left;
+}
+
+.main-right {
+  grid-area: main-right;
+}
+
+.main-bottom {
+  grid-area: main-bottom;
+}
+
+.footer {
+  grid-area: footer;
+}
