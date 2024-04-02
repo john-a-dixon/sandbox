@@ -33,6 +33,20 @@ h3 {
   color: hsla(180, 100%, 97%, 70%);
 }
 
+h4 {
+  background-color: transparent;
+  color: slateblue;
+  text-align: left;
+  font-size: xx-large;
+}
+
+aside {
+  margin-bottom: 5px;
+  font-style: italic;
+  color: hsla(180, 100%, 97%, 60%);
+  font-size: small;
+}
+
 p {
   background-color: hsla(208, 100%, 97%, 0%);
 }
@@ -64,4 +78,48 @@ p {
 
 .em p:last-child {
   font-size: 3em;
+}
+
+/******************************REM******************************/
+.rem {
+  height: 250px;
+}
+
+.rem p:first-child {
+  font-size: 1rem;
+}
+
+.rem p:nth-child(2) {
+  font-size: 2rem;
+}
+
+.rem p:last-child {
+  font-size: 3rem;
+}
+
+/******************************PERCENT-HW******************************/
+.percent-hw div {
+  height: 50%;
+  width: 75%;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******************************PERCENT-pm******************************/
+
+.percent-pm {
+  padding: 5%;
+}
+
+.percent-pm div {
+  height: 100%;
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 5%;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
