@@ -156,3 +156,16 @@ p {
 }
 
 /******************************BACKGROUND-IMAGE******************************/
+.background {
+  background-image: url("../resources/images/blue-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  resize: both;
+  overflow: auto;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+}
