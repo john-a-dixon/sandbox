@@ -107,8 +107,7 @@ p {
   align-items: center;
 }
 
-/******************************PERCENT-pm******************************/
-
+/******************************PERCENT-PM******************************/
 .percent-pm {
   padding: 5%;
 }
@@ -122,4 +121,13 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/******************************MIN-MAX******************************/
+.min-max div {
+  background-color: azure;
+  height: 250px;
+  min-width: 400px;
+  width: 80%;
+  max-width: 600px;
 }
