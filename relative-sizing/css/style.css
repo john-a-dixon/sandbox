@@ -137,5 +137,22 @@ p {
   max-width: 600px;
   min-height: 300px;
   height: 75%;
-  max-height: 800px;
+  max-height:400px;
 }
+
+/******************************IMAGES******************************/
+.images {
+  height: 500px;
+  width: 700px;
+  /* overflow: hidden; */ /*Used when the container is not resizable, as in the example*/
+  resize: both;
+  overflow: auto;
+}
+
+.images img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/******************************BACKGROUND-IMAGE******************************/
