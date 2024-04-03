@@ -46,3 +46,20 @@ aside {
   color: hsla(180, 100%, 97%, 60%);
   font-size: small;
 }
+/******************************GRID STYLING******************************/
+.grid-container {
+  height: 500px;
+  width: 75%;
+  background-color: cornflowerblue;
+  margin: 0 auto;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.grid-container div {
+  height: 150px;
+  width: 150px;
+  background-color: hsl(320, 60%, 40%);
+}
