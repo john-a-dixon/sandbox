@@ -48,14 +48,16 @@ aside {
 }
 /******************************GRID STYLING******************************/
 .grid-container {
-  height: 500px;
+  height: 600px;
   width: 75%;
   background-color: cornflowerblue;
   margin: 0 auto;
   display: grid;
-  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
-  align-items: center;
+  grid-template: repeat(2, 200px) / repeat(4, 200px);
+  justify-content: space-evenly;
   justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
 }
 
 .grid-container div {
