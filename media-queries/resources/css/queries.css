@@ -1,5 +1,17 @@
-@media only screen and (max-width: 480px) {
-  * {
-    color: bisque;
+@media only screen and (max-width: 1080px) {
+  .grid-container {
+    height: 700px;
+    grid-template: repeat(3, 200px) / repeat(3, 200px);
+  }
+}
+
+@media only screen and (max-width: 825px) {
+  .grid-container {
+    height: 700px;
+    grid-template: repeat(3, 200px) / repeat(3, 100px);
+  }
+  .grid-container div {
+    height: 100px;
+    width: 100px;
   }
 }
