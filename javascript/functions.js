@@ -2,7 +2,7 @@
 
 // Standard function declaration
 function funcInfo(x) {
-  const info = `Parameter = x\nArgument = "${x}"\nIdentifier = funcInfo`;
+  const info = `Parameter = x\nArgument = "${x}"\nIdentifier = funcInfo\n`;
   console.log(info);
 }
 
@@ -11,6 +11,10 @@ const addTwo = function(addend) {
   return addend + 2;
 }
 
+// Arrow function expression
+const isEven = number => number % 0 ? true : false;
+
 //-------------------------------------------------------------------------FUNCTION CALLS
 funcInfo("Arg")
 console.log(addTwo(9));
+console.log(isEven(9));
