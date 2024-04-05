@@ -6,5 +6,11 @@ function funcInfo(x) {
   console.log(info);
 }
 
+// Function expression
+const addTwo = function(addend) {
+  return addend + 2;
+}
+
 //-------------------------------------------------------------------------FUNCTION CALLS
 funcInfo("Arg")
+console.log(addTwo(9));
