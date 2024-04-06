@@ -5,7 +5,11 @@ const solarSystem = "Sol"
 // Block Scope
 const stellar = (general = true) => {
   let planet = "Earth";
-  return "Test";
+
+  if(!general) {
+    let planet = "Mars"
+  }
+  return `${galaxy} <- ${solarSystem} <- ${planet}`;
 };
 
 console.log(stellar());
