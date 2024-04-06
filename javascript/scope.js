@@ -3,4 +3,6 @@ const galaxy = "Milky Way"
 const solarSystem = "Sol"
 
 // Block Scope
-const
+const stellar = () => {
+  return "";
+}
