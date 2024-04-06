@@ -8,8 +8,10 @@ const stellar = (general = true) => {
 
   if(!general) {
     let planet = "Mars"
+    console.log(planet);
   }
   return `${galaxy} <- ${solarSystem} <- ${planet}`;
 };
 
+console.log(stellar(false));
 console.log(stellar());
