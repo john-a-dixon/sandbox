@@ -47,6 +47,7 @@ h3 {
 .grid-item {
   background-color: hsl(208, 100%, 86%);
 }
+
 /******************************BASIC GRID******************************/
 .basic.grid {
   grid-template: repeat(4, 1fr) / repeat(4, 1fr);
