@@ -46,3 +46,9 @@ for(let i = 0; i < bob.length; i++) {
   }
   console.log(bob[i]);
 }
+
+// For-of loop
+const groceries = ["Tacos", "Paper", "Bananas"];
+for(let grocery of groceries) {
+  console.log(grocery);
+}
