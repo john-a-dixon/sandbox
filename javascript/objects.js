@@ -4,6 +4,7 @@ const story = {
   characters: ["Michael", "Lozen"]
 }
 
-console.log(story);
-
 // Mutating the object
+story["title"] = "Sojourner's Odyssey";
+
+console.log(story);
