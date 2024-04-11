@@ -38,3 +38,11 @@ for(let i = 0; i < bob.length; i++) {
   }
   console.log(bob[i]);
 }
+
+// Continue keyword
+for(let i = 0; i < bob.length; i++) {
+  if(bob[i] === "e") {
+    continue;
+  }
+  console.log(bob[i]);
+}
