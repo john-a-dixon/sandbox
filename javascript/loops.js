@@ -1,6 +1,6 @@
 // Standard for-loop
 for(let i = 0; i < 10; i++) {
-  console.log(i + 1, "");
+  console.log(i + 1);
 }
 
 // Looping through arrays
@@ -9,3 +9,9 @@ for(let i = 0; i < array.length; i++) {
   console.log(array[i]);
 }
 
+// Nested loops
+for(let i = 0; i <= 3; i++) {
+  for(let j = 0; j <= 3; j++) {
+    console.log(i * j);
+  }
+}
