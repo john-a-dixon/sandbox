@@ -29,3 +29,12 @@ do {
   console.log(i);
   i--;
 } while (i > 0);
+
+// Break keyword
+let bob = "Robert";
+for(let i = 0; i < bob.length; i++) {
+  if(bob[i] === "e") {
+    break;
+  }
+  console.log(bob[i]);
+}
