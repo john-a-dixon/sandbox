@@ -41,3 +41,7 @@ console.log(actFactory(1, "Test"));
 
 console.log(Object.keys(story));
 console.log(Object.entries(story.content));
+
+Object.seal(story)
+story.scene = "TEST";
+console.log(story)
