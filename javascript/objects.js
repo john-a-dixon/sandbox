@@ -45,3 +45,4 @@ console.log(Object.entries(story.content));
 Object.seal(story)
 story.scene = "TEST";
 console.log(story)
+console.log(Object.isSealed(story));
