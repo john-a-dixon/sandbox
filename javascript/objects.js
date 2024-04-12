@@ -23,6 +23,17 @@ const story = {
   }
 };
 
+
+const actFactory = (number, title) => {
+  return {
+    number,
+    title,
+    sequences: []
+  }
+}
+
 console.log(story.title);
 story.title = "Sojourner's Odyssey";
 console.log(story.title);
+
+console.log(actFactory(1, "Test"));
