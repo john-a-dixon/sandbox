@@ -1,5 +1,6 @@
 // Basic instance of an object
 const story = {
+  _title: "Untitled",
   content: {
     _acts: [9],
     _parts: [],
@@ -12,7 +13,16 @@ const story = {
   },
   structure: {
     _characters: []
+  },
+
+  set title(title) {
+    this._title = title
+  },
+  get title() {
+    return this._title
   }
 };
 
-console.log(story.content.acts);
+console.log(story.title);
+story.title = "Sojourner's Odyssey";
+console.log(story.title);
