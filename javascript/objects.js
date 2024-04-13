@@ -4,6 +4,7 @@ const story = {
   content: {
     _acts: [9],
     _parts: [],
+    // Getters
     get acts() {
       return this._acts;
     },
@@ -14,7 +15,7 @@ const story = {
   structure: {
     _characters: []
   },
-
+  // Setter
   set title(x) {
     this._title = x
   },
