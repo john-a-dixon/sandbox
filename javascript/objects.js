@@ -54,3 +54,6 @@ story.scene = "TEST";
 console.log(story)
 console.log(Object.isFrozen(story));
 
+// Demonstrating hasOwn
+console.log(Object.hasOwn(story, "scenes"));
+console.log(Object.hasOwn(story, "content"));
