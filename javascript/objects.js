@@ -42,12 +42,15 @@ console.log(actFactory(1, "Test"));
 console.log(Object.keys(story));
 console.log(Object.entries(story.content));
 
+// Demonstrated object seal
 Object.seal(story);
 delete story["content"];
 console.log(story)
 console.log(Object.isSealed(story));
 
+// Demonstrated Object freeze
 Object.freeze(story);
 story.scene = "TEST";
 console.log(story)
 console.log(Object.isFrozen(story));
+
