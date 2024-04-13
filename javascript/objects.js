@@ -23,7 +23,7 @@ const story = {
   }
 };
 
-
+// Demonstrating object factory
 const actFactory = (number, title) => {
   return {
     number,
@@ -32,13 +32,14 @@ const actFactory = (number, title) => {
   }
 }
 
+// Demonstrating reassigning properies via setters
 console.log(story.title);
 story.title = "Sojourner's Odyssey";
 console.log(story.title);
 
 console.log(actFactory(1, "Test"));
 
-
+// Demonstrating .keys and .entries
 console.log(Object.keys(story));
 console.log(Object.entries(story.content));
 
