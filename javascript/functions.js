@@ -18,3 +18,7 @@ const isEven = number => number % 0 ? true : false;
 funcInfo("Arg")
 console.log(addTwo(9));
 console.log(isEven(9));
+
+//-------------------------------------------------------------------------FUNCTIONS AS DATA
+
+//-------------------------------------------------------------------------FUNCTIONS AS PARAMETERS (HIGHER ORDER FUNCTIONS)
