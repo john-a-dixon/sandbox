@@ -34,3 +34,5 @@ const sum = numbers.reduce((accumulator, currentVal) => accumulator + currentVal
 console.log(sum);
 
 //-------------------------------------------------------------------------OTHER ITERATOR
+const slice = numbers.slice(0, 2);
+console.log(slice);
