@@ -29,4 +29,8 @@ console.log(digit);
 digit = numbers.find(number => number < 10);
 console.log(digit);
 
+//-------------------------------------------------------------------------REDUCE
+const sum = numbers.reduce((accumulator, currentVal) => accumulator + currentVal);
+console.log(sum);
+
 //-------------------------------------------------------------------------OTHER ITERATOR
