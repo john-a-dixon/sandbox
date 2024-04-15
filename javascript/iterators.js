@@ -16,10 +16,14 @@ const odds = numbers.map(number => {
     return number;
   }
 });
-
+console.log(odds);
 //-------------------------------------------------------------------------FILTER
-
+const fives = numbers.filter(number => !(number % 5))
+console.log(fives);
 
 //-------------------------------------------------------------------------FIND INDEX
+const digit = numbers.findIndex(number => {
+  
+});
 
 //-------------------------------------------------------------------------OTHER ITERATOR
