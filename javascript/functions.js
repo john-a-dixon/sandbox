@@ -25,4 +25,11 @@ functionWithAReallyLongName();
 const shrt = functionWithAReallyLongName;
 shrt();
 console.log(shrt.name);
+
 //-------------------------------------------------------------------------FUNCTIONS AS PARAMETERS (HIGHER ORDER FUNCTIONS)
+const a = func => {
+  console.log(`You passed in a function named "${func.name}"`);
+}
+
+a(functionWithAReallyLongName);
+a(funcInfo);
