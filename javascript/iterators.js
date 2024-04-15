@@ -22,8 +22,7 @@ const fives = numbers.filter(number => !(number % 5))
 console.log(fives);
 
 //-------------------------------------------------------------------------FIND INDEX
-const digit = numbers.findIndex(number => {
-  
-});
+const digit = numbers.findIndex(number => number < 10);
+console.log(digit);
 
 //-------------------------------------------------------------------------OTHER ITERATOR
