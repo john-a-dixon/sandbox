@@ -20,6 +20,9 @@ console.log(addTwo(9));
 console.log(isEven(9));
 
 //-------------------------------------------------------------------------FUNCTIONS AS DATA
-
-
+const functionWithAReallyLongName = () => console.log("I have a really long name.");
+functionWithAReallyLongName();
+const shrt = functionWithAReallyLongName;
+shrt();
+console.log(shrt.name);
 //-------------------------------------------------------------------------FUNCTIONS AS PARAMETERS (HIGHER ORDER FUNCTIONS)
