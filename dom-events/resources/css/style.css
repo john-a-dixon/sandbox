@@ -46,3 +46,21 @@ aside {
   color: hsla(180, 100%, 97%, 60%);
   font-size: small;
 }
+
+#switch {
+  border: none;
+  height: 50px;
+  width: 100px;
+  background: hsl(45, 56%, 56%);
+  border-radius: 10px;
+}
+
+#switch:hover {
+  background-color: hsl(45, 56%, 36%);
+}
+
+#color {
+  height: 500px;
+  width: 500px;
+  background-color: #fff;
+}
