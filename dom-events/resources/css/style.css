@@ -10,7 +10,7 @@
   color: azure;
 }
 
-html, body {
+html, body, main {
   height: 100%;
   width: 100%;
 }
@@ -47,6 +47,13 @@ aside {
   font-size: small;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #switch {
   border: none;
   height: 50px;
@@ -56,6 +63,7 @@ aside {
   font-weight: bolder;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 25px;
 }
 
 #switch:hover {
