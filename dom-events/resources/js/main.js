@@ -13,8 +13,12 @@ const hideRGB = event => {
 };
 
 const randomNumber = number => Math.round(Math.random() * number)
+
 const changeColor = event => {
-  console.log(randomNumber(255));
+  const r = randomNumber(255);
+  const g = randomNumber(255);
+  const b = randomNumber(255);
+  colorBox.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 };
 
 // Event listeners
