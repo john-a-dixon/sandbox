@@ -1,3 +1,5 @@
+export const explain = () => console.log("These are farewells.");
+
 export const goodbye = () => console.log("Goodbye!");
 
 const adios = () => console.log("¡Adios!")

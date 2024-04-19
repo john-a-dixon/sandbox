@@ -1,3 +1,5 @@
+export const explain = () => console.log("These are greetings.");
+
 const hello = () => console.log("Hello!");
 
 const hola = () => console.log("¡Hola!");
