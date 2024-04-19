@@ -1,8 +1,14 @@
 import { goodbye, adios, auRevoir } from "./goodbye.js";
 
-// Hellos
+import resources from "./hello.js";
+const { hello, hola, bonjour } = resources;
 
-// Goodbyes
+// Greetings
+hello()
+hola()
+bonjour()
+
+// Farewells
 goodbye();
 adios();
 auRevoir();
