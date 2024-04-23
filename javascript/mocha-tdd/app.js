@@ -1,3 +1,4 @@
+// Not used for TDD example
 const altCase = phrase => {
   let altString = ""
   let capIt = true;
@@ -12,5 +13,7 @@ const altCase = phrase => {
 
   return altString;
 };
+
+// Used for TDD example
 
 module.exports = { altCase };

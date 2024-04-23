@@ -32,9 +32,15 @@ describe("Casing", () => {
       actual = altCase(expected);
 
       // Verify
-      assert.strictEqual(expected, actual);
-      
+      assert.strictEqual(actual, expected);
+
       // Teardown (can be done with a hook too)
     });
   });
+
+
+
+  
+
+
 });
