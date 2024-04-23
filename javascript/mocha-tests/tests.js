@@ -19,7 +19,17 @@ describe("Casing", () => {
 
       // Verify
       assert.strictEqual(expected, actual);
+    });
 
+    it("returns alternating casing for a sentence", () => {
+      // Setup
+      const expected = "HeLlO To aLl!";
+
+      // Exercise
+      actual = altCase(expected);
+
+      // Verify
+      assert.strictEqual(expected, actual);
     });
   });
 });
