@@ -39,7 +39,12 @@ describe("Casing", () => {
   });
 
 
-// 
+/*
+TDD Red-Green-Refactor Cycle
+1. Red: Write tests that describe intended behavior. This will fail at first. 
+   Implementation code is written in response to the failure.
+2. Green:
+*/
   describe(".invertCase", () => {
     it("inverts the casing of a word", () => {
 
