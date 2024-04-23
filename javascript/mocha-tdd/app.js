@@ -16,7 +16,10 @@ const altCase = phrase => {
 
 // Used for TDD example
 const invertCase = phrase => {
-
+  inverted = ""
+  for(let character of phrase) {
+    
+  }
 }
 
 module.exports = { altCase, invertCase };
