@@ -39,8 +39,11 @@ describe("Casing", () => {
   });
 
 
+// 
+  describe(".invertCase", () => {
+    it("inverts the casing of a word", () => {
 
-  
-
+    });
+  });
 
 });
