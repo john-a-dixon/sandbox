@@ -65,6 +65,8 @@ Each test below was done with this cycle in mind.
       assert.strictEqual(result, expected);
 
     });
-  });
 
+    // More tests would be done, using the TDD cycle of Red-Green-Refactor
+    // below
+  });
 });
