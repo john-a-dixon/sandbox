@@ -48,7 +48,9 @@ TDD Red-Green-Refactor Cycle
 3. Refactor: Clean up and optimize code according to the characteristics of a good test:
    (https://www.codecademy.com/article/tdd-u1-good-test). This is for both test code and
    implementation code.
+Repeat for each test.
 
+Each test below was done with this cycle in mind.
 */
   describe(".invertCase", () => {
     it("inverts the casing of a word", () => {
