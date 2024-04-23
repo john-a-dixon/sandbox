@@ -1,5 +1,3 @@
-const allCaps = phrase => phrase.toUpperCase();
-
 const altCase = phrase => {
   let altString = ""
   let capIt = true;
@@ -15,4 +13,4 @@ const altCase = phrase => {
   return altString;
 };
 
-console.log(altCase("LOL"));
+module.exports = { altCase };

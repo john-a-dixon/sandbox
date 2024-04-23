@@ -1,0 +1,1 @@
+const { altCase } = require("./app.js");
