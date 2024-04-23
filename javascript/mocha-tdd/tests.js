@@ -3,40 +3,40 @@ const { altCase } = require("./app.js");
 const exp = require("constants");
 
 describe("Casing", () => {
-  describe(".altCase", () => {
-    let actual = "";
+  // describe(".altCase", () => {
+  //   let actual = "";
 
-    // An example of the beforeEach hook. There are 3 others too.
-    beforeEach(() => {
-      actual = "";
-    });
+  //   // An example of the beforeEach hook. There are 3 others too.
+  //   beforeEach(() => {
+  //     actual = "";
+  //   });
 
-    it("returns alternating casing for a word", () => {
-      // Setup
-      const expected = "HeLlO";
+  //   it("returns alternating casing for a word", () => {
+  //     // Setup
+  //     const expected = "HeLlO";
 
-      // Exercise
-      actual = altCase("Hello");
+  //     // Exercise
+  //     actual = altCase("Hello");
 
-      // Verify
-      assert.strictEqual(expected, actual);
+  //     // Verify
+  //     assert.strictEqual(expected, actual);
 
-      // Teardown (can be done with a hook too)
-    });
+  //     // Teardown (can be done with a hook too)
+  //   });
 
-    it("returns alternating casing for a sentence", () => {
-      // Setup
-      const expected = "HeLlO To aLl!";
+  //   it("returns alternating casing for a sentence", () => {
+  //     // Setup
+  //     const expected = "HeLlO To aLl!";
 
-      // Exercise
-      actual = altCase(expected);
+  //     // Exercise
+  //     actual = altCase(expected);
 
-      // Verify
-      assert.strictEqual(actual, expected);
+  //     // Verify
+  //     assert.strictEqual(actual, expected);
 
-      // Teardown (can be done with a hook too)
-    });
-  });
+  //     // Teardown (can be done with a hook too)
+  //   });
+  // });
 
 
 /*
@@ -54,6 +54,15 @@ Each test below was done with this cycle in mind.
 */
   describe(".invertCase", () => {
     it("inverts the casing of a word", () => {
+      // Setup
+      const expected = "hELLO"
+      const input = "Hello"
+
+      // Exercise
+      const result = invertCase(input);
+
+      // Verify
+      assert.strictEqual(result, expected);
 
     });
   });
