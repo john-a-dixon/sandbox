@@ -68,10 +68,16 @@ Each test below was done with this cycle in mind.
 
     // More tests would be done, using the TDD cycle of Red-Green-Refactor
     // below
-    if("inverts the casing of a sentence", () => {
+    it("inverts the casing of a sentence", () => {
       // Setup
+      const expected = "hELLO TO ALL!";
+      const input = "Hello to all!";
+
       // Exercise
+      const result = invertCase(input);
+
       // Verify
+      assert.strictEqual(result, expected);
     });
   });
 });
