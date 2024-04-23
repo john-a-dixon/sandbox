@@ -20,6 +20,8 @@ describe("Casing", () => {
 
       // Verify
       assert.strictEqual(expected, actual);
+
+      // Teardown (can be done with a hook too)
     });
 
     it("returns alternating casing for a sentence", () => {
@@ -31,6 +33,8 @@ describe("Casing", () => {
 
       // Verify
       assert.strictEqual(expected, actual);
+      
+      // Teardown (can be done with a hook too)
     });
   });
 });
