@@ -6,6 +6,7 @@ describe("Casing", () => {
   describe(".altCase", () => {
     let actual = "";
 
+    // An example of the beforeEach hook. There are 3 others too.
     beforeEach(() => {
       actual = "";
     });
