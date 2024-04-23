@@ -18,8 +18,14 @@ const altCase = phrase => {
 const invertCase = phrase => {
   inverted = ""
   for(let character of phrase) {
-    
+    if(character.toUpperCase() === character) {
+      inverted += character.toLowerCase();
+    } else if(character.toLowerCase() === character) {
+      inverted += character.toUpperCase();
+    }
   }
+
+  return inverted;
 }
 
 module.exports = { altCase, invertCase };
