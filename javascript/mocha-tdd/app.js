@@ -15,5 +15,8 @@ const altCase = phrase => {
 };
 
 // Used for TDD example
+const invertCase = phrase => {
 
-module.exports = { altCase };
+}
+
+module.exports = { altCase, invertCase };

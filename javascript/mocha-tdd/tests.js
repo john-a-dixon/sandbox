@@ -1,5 +1,5 @@
 const assert = require("assert");
-const { altCase } = require("./app.js");
+const { altCase, invertCase } = require("./app.js");
 const exp = require("constants");
 
 describe("Casing", () => {
