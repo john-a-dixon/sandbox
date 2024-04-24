@@ -1,4 +1,7 @@
 // Function to demonstrate promises
+const mockWait = (message, time) => {
+
+}
 
 // Standard promise
 
