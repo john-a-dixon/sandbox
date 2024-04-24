@@ -18,7 +18,12 @@ const onResolve = resolved => console.log(resolved);
 const onReject = rejected => console.log(rejected);
 
 // Basic promise
-mockCall("Basic Promise", 200).then(onResolve, onReject);
+mockCall("Basic Promise", 300).then(onResolve, onReject);
+
+// Basic promise with .Catch
+mockCall("Basic Promise with .catch", 100)
+  .then(onResolve)
+  .catch(onReject);
 
 // Chained promise
 
