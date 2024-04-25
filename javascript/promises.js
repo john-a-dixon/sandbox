@@ -6,7 +6,7 @@ const mockCall = (message, time) => {
       if (randNum % 2) {
         resolve(message + ": resolved")
       } else {
-        resolve(message + ": rejected")
+        reject(message + ": rejected")
       }
     }, time);
   });
@@ -33,4 +33,7 @@ mockCall("Chained Promises", 200)
   .catch(onReject);
 
 // Promise all
-let promises = [];
+let promises = Promise.all([mockCall("All 1", 140), mockCall("All 2", 300), mockCall("All 3", 100)]);
+promises
+  .then(resolves => console.log(resolves))
+  .catch(reason => console.log(reason));
