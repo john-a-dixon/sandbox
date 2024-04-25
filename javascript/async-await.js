@@ -15,3 +15,13 @@
 //   });
 // };
 
+const mockCall = async (message, time) => {
+  let result = "";
+  await setTimeout(() => {
+    result = "Resolved";
+  }, time);
+  console.log(result);
+  return result;
+};
+
+mockCall("Hello", 1000);
