@@ -19,4 +19,17 @@ const asyncBasic = async (message, time) => {
   console.log(result);
 }
 
-asyncBasic("Basic async-await", 60)
+// asyncBasic("Basic async-await", 60)
+
+// Async-await with error handling
+
+const asyncWError = async (message, time) => {
+  try{
+    let result = await mockCall(message, time);
+    console.log(result);
+  } catch (error) {
+    console.log("Oops! We just got an error...");
+  }
+}
+
+asyncWError("Async-await with error handling", 100)
