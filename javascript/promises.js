@@ -32,3 +32,4 @@ mockCall("Chained Promises", 200)
   .catch(onReject);
 
 // Promise all
+let promises = [];
