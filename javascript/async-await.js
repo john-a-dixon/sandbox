@@ -31,5 +31,16 @@ const asyncWError = async (message, time) => {
     console.log("Oops! We just got an error...");
   }
 }
+// asyncWError("Async-await with error handling", 100)
 
-asyncWError("Async-await with error handling", 100)
+const asyncChained = async (message, time) => {
+  try{
+    let result = await mockCall(message, time);
+    let anotherResult = await mockCall(result, time/2);
+    console.log(anotherResult);
+  } catch (error) {
+    console.log("Oops! We just got an error...");
+    console.log(error);
+  }
+}
+asyncChained("Async-await with error handling", 1000)
