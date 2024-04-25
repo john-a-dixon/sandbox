@@ -1,7 +1,4 @@
-// This function uses the same functionality as the one in
-// the native-promises.js file (also in comment below) but 
-// using async-await.
-
+// Function to demonstrate waiting for something
 const mockCall = (message, time) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -17,3 +14,9 @@ const mockCall = (message, time) => {
 
 
 // Basic async-await
+const asyncBasic = async (message, time) => {
+  let result = await mockCall(message, time);
+  console.log(result);
+}
+
+asyncBasic("Basic async-await", 60)
