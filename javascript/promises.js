@@ -12,7 +12,6 @@ const mockCall = (message, time) => {
   });
 };
 
-
 // Success & Failure Handlers
 const onResolve = resolved => console.log(resolved);
 const onReject = rejected => console.log(rejected);
