@@ -26,5 +26,9 @@ mockCall("Basic Promise with .catch", 100)
   .catch(onReject);
 
 // Chained promise
+mockCall("Chained Promises", 200)
+  .then(resolved => mockCall(resolved, 150))
+  .then(onResolve)
+  .catch(onReject);
 
 // Promise all
