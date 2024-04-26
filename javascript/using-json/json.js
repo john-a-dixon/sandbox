@@ -10,3 +10,6 @@ const jsObject = {
     students: ["A", "B", "C"]
   }
 }
+
+const newJSON = JSON.stringify(jsObject);
+console.log(newJSON);
