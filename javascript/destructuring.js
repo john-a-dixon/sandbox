@@ -20,3 +20,5 @@ const {name: NAME, breed: BREED} = dog;
 console.log(NAME, BREED);
 
 // Destructuring with functions
+const getBreed = ({breed}) => console.log(breed);
+getBreed(dog);
