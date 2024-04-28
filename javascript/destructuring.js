@@ -16,4 +16,7 @@ const dog = {
 const {breed} = dog;
 console.log(breed);
 
+const {name: NAME, breed: BREED} = dog;
+console.log(NAME, BREED);
+
 // Destructuring with functions
