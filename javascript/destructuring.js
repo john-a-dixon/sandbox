@@ -7,5 +7,13 @@ const [first] = alpha;
 console.log(first);
 
 // Destructuring with objects
+const dog = {
+  name: "Balto",
+  breed: "Siberian Husky",
+  age: 9
+}
+
+const {breed} = dog;
+console.log(breed);
 
 // Destructuring with functions
