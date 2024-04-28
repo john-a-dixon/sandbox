@@ -22,3 +22,10 @@ console.log(NAME, BREED);
 // Destructuring with functions
 const getBreed = ({breed}) => console.log(breed);
 getBreed(dog);
+
+// Swapping with destructuring
+let x = "Balto";
+let y = "Shadow";
+
+[x, y] = [y, x];
+console.log(x, y);
