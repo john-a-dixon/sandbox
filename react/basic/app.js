@@ -1,3 +1,5 @@
+const willBeListItems = ["A", "B", "C"];
+
 const myElement = (
   <div id="myElement" className="myClass"> {/* Use className to add classes to JSX. */}
     <p>An element!</p> 
