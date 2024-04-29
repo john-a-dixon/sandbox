@@ -1,4 +1,5 @@
 const willBeListItems = ["A", "B", "C"];
+const listItems = willBeListItems.map((item, i) => <li key={"item-" + i}>{item}</li>)
 
 const myElement = (
   <div id="myElement" className="myClass"> {/* Use className to add classes to JSX. */}
