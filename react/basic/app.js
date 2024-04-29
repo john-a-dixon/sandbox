@@ -5,5 +5,6 @@ const myElement = (
     <p>An element!</p> 
     <br /> {/* All self-closing tags must have a forward slash. */}
     <p>{9 + 1}</p> {/* All injected JS must be in curly braces. */}
+    <button onClick={() => console.log("Click")}></button> {/* All events listeners are camel case. */}
   </div>
 );
